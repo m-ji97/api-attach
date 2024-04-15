@@ -46,4 +46,4 @@ jobs:
             sudo docker pull tv5035/attach:latest
             sudo docker stop attach || true
             sudo docker rm attach || true
-            sudo docker run -d --name attach -p 9001:9001 -v /home/ec2-user/upload:/app/upload \ tv5035/attach:latest
+            sudo docker run -d --name attach -p 9001:9001 -v /home/ec2-user/upload:/app/upload \tv5035/attach:latest
